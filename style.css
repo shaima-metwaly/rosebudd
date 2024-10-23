@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 15px;
+    font-family: sans-serif;
+}
+/*            STYLE HEADER                 */
+header {
+    background-image: url(images/img12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.nav-link:visited{
+    color: white;
+}
+.container-fluid {
+    margin-left: 20px;
+}
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.836);
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 100px 30px;
+}
+.content {
+    text-align: center;
+    color: white;
+}
+.control {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+.control2 {
+    text-align:end;
+}
+.content h2{
+    font-size: 60px;
+    font-family: serif;
+    text-transform: uppercase;
+}
+.content h3 {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 60px;
+}
+.content p {
+    line-height: 1.5;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+.more {
+    padding: 10px;
+    cursor: pointer;
+}
+.more1 {
+    border: none;
+    
+}
+.more2 {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+/*            SSTYLE SECTION 1      POWEFUL                   */
+.powerful {
+    margin: 50px 0px;
+}
+.power {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.power img{
+    width: 50px;
+}
+.card-title {
+    font-size: 18px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.card-text {
+    color: gray;
+    line-height: 1.7;
+}
+/*           STYLE SECTION 2                 */
+.gift {
+    background-color: #fff0e9;   
+}
+.top {
+    text-align: center;
+    padding-top: 100px;
+}
+.top h3 {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 30px;
+}
+.top h2 , .left h2 {
+    font-size: 40px;
+    font-family: serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.down {
+    width: 90%;
+    margin: auto;
+}
+.down > div{
+    text-align: center;
+}
+.down div img {
+    width: 100%;
+}
+.down h5 {
+    text-transform: uppercase;
+    margin: 10px 0;
+    text-align: center;
+    color: #000000d0;
+    padding-top: 5px;
+}
+.down div p {
+    color: gray;
+}
+.down div p span{
+    color: #000000e5;
+    text-decoration: line-through;
+}
+.sold {
+    position: relative;
+}
+.abs {
+    font-size: 16px;
+    padding: 5px;
+    background-color: black;
+    color: #ffffff !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*             STYLE SECTION 4     NUMBERS       */
+.numbers {
+    background-image: url(images/img12.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.number {
+    padding: 80px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.number h5 {
+    font-size: 40px;
+}
+.number h6 {
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/*           STYLE SECTION 5 FERFECT SPOT              */
+.perfect-spot {
+    margin: 100px auto;
+    width: 90%;
+}
+.left {
+    background-image: url(images/img13.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.left h3 {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 50px;
+}
+.left p {
+    color: gray;
+    line-height: 1.7;
+}
+.left button {
+    padding: 15px 30px;
+    border: 1px solid black;
+    background: transparent;
+    transition: .5s;
+    text-transform: uppercase;
+}
+.left button:hover {
+    background: black;
+    color: white;
+}
+/*                STYLE SECTION 6  Testimonials              */
+.testimonials {
+    background-image: url(images/img15.jpg);
+}
+.testimonial {
+    padding: 100px 0;
+}
+.experience {
+    font-size: 20px;
+    margin: auto;
+}
+.circle {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: none;
+}
+.circle1 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+/*              STYLE SECTION 7 our team of experts                    */
+.team {
+    background-image: url(images/img16.jpg);
+}
+.links {
+    margin-bottom: 100px;
+}
+.links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.842);
+    margin: 10px;
+}
+/*                STYLE SECTION 8 IMAGES                    */
+.images img {
+    width: 100%;
+}
+/*                 STYLE SECTION 9 subscribe            */
+.subscribe {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fff0e9;
+}
+.subscribe h5 {
+    font-size: 25px;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.733);
+    margin-bottom: 20px;
+}
+.subscribe input {
+    padding: 10px;
+    width: 45%;
+    border: none;
+}
+.subscribe input::placeholder {
+    color: gray;
+}
+.subscribe input:focus {
+    outline: none;
+}
+.subscribe button {
+    border: none;
+    padding: 10px;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    translate: -4px;
+    transition: .3s;
+}
+.subscribe button:hover {
+    background-color: rgba(0, 0, 0, 0.911);
+}
+/*                     STYLE SECTION 10  FOOTER          */
+footer {
+    background-color: #1b1b1b;
+}
+footer > div {
+    padding: 70px 0;
+}
+footer img {
+    width: 100%;
+}
+footer h6 {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: serif;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+footer h6 img {
+    width: 100px;
+}
+footer p {
+    margin: 0;
+    color: #777;
+}
+footer .Proin {
+    margin: 20px 0;
+}
+footer a {
+    text-decoration: none;
+    color: #777;
+}
+footer .link a {
+    margin: 10px;
+}
+footer a:hover {
+    color: white;
+}
